@@ -1,4 +1,4 @@
-# Big Data Engineering — ISI 2026 — Dépôt de Pape hamady Fall
+# Big Data Engineering — ISI 2026 — Dépôt de Mouhamed THIAM
 
 > Master 1 — Isi — Prof. Samba Ndiaye
 > Dépôt individuel du cours : tous les livrables du semestre y sont versionnés.
