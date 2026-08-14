@@ -5,7 +5,7 @@
 
 ## À compléter (TP 1)
 
-- **Étudiant·e** : <Pape Hamady Fall> — <phfalldk@groupeisi.com> — <n° carte étudiant>
+- **Étudiant·e** : <Mouhamed THIAM> — <mouhamedthiam@groupeisi.com> — <n° carte étudiant>
 - **Identifiant GitHub** : <phf-dev221>
 
 ## Structure du dépôt
