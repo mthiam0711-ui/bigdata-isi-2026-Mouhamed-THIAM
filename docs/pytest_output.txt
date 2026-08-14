@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.12, pytest-9.1.1, pluggy-1.6.0 -- /Users/mac/Desktop/dsia/bigdata/venv-bigdata/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/mac/Desktop/dsia/bigdata/venv-bigdata/bigdata-isi-hamady
+configfile: pytest.ini
+plugins: Faker-40.31.0, anyio-4.14.2
+collecting ... collected 9 items
+
+tests/test_transformations.py::test_unifier_manquants PASSED             [ 11%]
+tests/test_transformations.py::test_normaliser_email PASSED              [ 22%]
+tests/test_transformations.py::test_normaliser_ville PASSED              [ 33%]
+tests/test_transformations.py::test_normaliser_ville_meme_cle_sans_accent PASSED [ 44%]
+tests/test_transformations.py::test_normaliser_telephone PASSED          [ 55%]
+tests/test_transformations.py::test_valider_naissance PASSED             [ 66%]
+tests/test_transformations.py::test_dedupliquer_clients_quasi_doublon_email PASSED [ 77%]
+tests/test_transformations.py::test_dedupliquer_clients_preserve_emails_nuls PASSED [ 88%]
+tests/test_transformations.py::test_nettoyer_clients_pipeline PASSED     [100%]
+
+============================== 9 passed in 26.81s ==============================

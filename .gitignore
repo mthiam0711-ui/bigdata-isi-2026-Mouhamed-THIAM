@@ -1,0 +1,23 @@
+# --- Données générées : ne JAMAIS versionner (régénérables, graine 42) ---
+data/
+data_sample/
+stream_out/
+*.csv
+*.json
+!anomalies_manifest.json.example
+*.parquet
+*.db
+
+# --- Python ---
+venv*/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- Divers ---
+.DS_Store
+*.log
+.idea/
+.vscode/

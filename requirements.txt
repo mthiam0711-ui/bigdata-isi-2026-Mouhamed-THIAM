@@ -1,0 +1,7 @@
+faker>=24.0
+numpy>=1.26
+pandas>=2.0
+jupyter
+pyspark==3.5.1
+pytest
+chispa
