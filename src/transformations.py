@@ -107,4 +107,5 @@ def nettoyer_clients(df: DataFrame) -> DataFrame:
             .transform(normaliser_ville)
             .transform(normaliser_telephone)
             .transform(valider_naissance)
-            .transform(dedupliquer_clients))
+            .transform(dedupliquer_clients)
+            )
