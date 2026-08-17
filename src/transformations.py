@@ -57,12 +57,13 @@ def _sans_accent(s):
 _sans_accent_udf = F.udf(_sans_accent, StringType())
 
 
+
 def normaliser_ville(df: DataFrame) -> DataFrame:
     """trim + initcap sur ville (affichage) ; ville_norm = clé sans accent."""
     ville_affichage = F.initcap(F.trim(F.col("ville")))
     return (df
             .withColumn("ville", ville_affichage)
-            .withColumn("ville_norm", _sans_accent_udf(ville_affichage)))
+            .withColumn("ville_norm", _sans_accent(ville_affichage)))
 
 
 def normaliser_telephone(df: DataFrame) -> DataFrame:
